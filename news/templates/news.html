@@ -1,0 +1,38 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container">
+  <h1>Movie news!</h1>
+  <br />
+</div>
+
+<div class="container">
+  {% for newsitem in news %}
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div>
+        {% if newsitem.image %}
+        <img class="card-img-top" src="{{ newsitem.image.url }}" />
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{ newsitem.title }}</h5>
+          <small class="text-muted">{{ newsitem.date }}</small>
+          <p class="card-text">{{ newsitem.summary }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="container">
+  <h2>Join our mailing list</h2>
+  <form action="{% url 'signup' %}">
+    <div class="mb-3">
+      <label for="email" class="form-label"> Enter your email: </label>
+      <input type="email" class="form-control" name="email" />
+    </div>
+    <button type="submit" class="btn btn-primary">Sign up</button>
+  </form>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.00855219,0,0,0.00967619,0,0)">
+        <rect id="Artboard1" x="0" y="0" width="3507.87" height="2480.32" style="fill:none;"/>
+        <g id="Artboard11" serif:id="Artboard1">
+            <g transform="matrix(87.6969,0,0,77.5098,-350.787,-620.079)">
+                <path d="M18.3,22.1L16.6,26L12.7,27.7L16.6,29.4L18.3,33.3L20,29.4L23.9,27.7L20,26L18.3,22.1ZM31.6,21.5L30.35,24.2L27.65,25.45L30.35,26.7L31.6,29.4L32.85,26.7L35.55,25.45L32.85,24.2L31.6,21.5ZM7,8L10.7,15.6L17.2,15.6L13.5,8L17.95,8L21.65,15.6L28.15,15.6L24.45,8L28.9,8L32.6,15.6L39.1,15.6L35.4,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8ZM7,18.6L7,37L41,37L41,18.6L7,18.6ZM7,18.6L7,37L7,18.6Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
